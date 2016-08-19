@@ -1,0 +1,9 @@
+footer {
+  margin-top: 3rem;
+}
+
+footer .copywrite {
+  text-align: center;
+  color: #ED822E;
+  line-height: 3rem;
+}

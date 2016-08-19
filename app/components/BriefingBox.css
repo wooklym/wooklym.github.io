@@ -1,0 +1,15 @@
+.briefing-box {
+  padding: 2rem 4rem;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background: #fff;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
+  border: 0.1rem solid #F19B33;
+}
+
+.briefing-box>a {
+  color: #F19B33;
+}

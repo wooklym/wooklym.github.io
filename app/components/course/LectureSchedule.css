@@ -1,0 +1,40 @@
+#lectureSchedule .info-left {
+  padding-right: 3rem;
+}
+@media screen and (max-width: 991px) {
+  #lectureSchedule .info-left {
+    padding-right: 15px;
+  }
+}
+
+#lectureSchedule .lecture-title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+#lectureSchedule .lecture-subtitle {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+#lectureSchedule .lecture-info {
+}
+#lectureSchedule .lecture-info span {
+  display: inline-block;
+}
+#lectureSchedule .lecture-info dt {
+  font-weight: 400;
+  margin-top: 1rem;
+}
+#lectureSchedule .lecture-info dd {
+  margin-top: 1rem;
+}
+#lectureSchedule .lecture-info li {
+  margin-bottom: 1rem;
+}
+@media screen and (max-width: 767px) {
+  #lectureSchedule .lecture-info dt {
+    font-size: 1.2rem;
+  }
+  #lectureSchedule .lecture-info dd {
+    margin-top: 0.3rem;
+  }
+}

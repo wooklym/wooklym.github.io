@@ -1,0 +1,98 @@
+#about .content {
+  margin-top: 2rem;
+}
+
+#about .content .about-title {
+  font-size: 3rem;
+  font-weight: 700;
+  /*  shadows render better in certain browsers than text, first rule is for older browser support  */
+  color: #333;
+  color: transparent;
+  text-shadow: 0 0 #333, .08rem 0 0 #fff, 0 0, -.08rem 0 0 #fff;
+  /*  gradient background allows us to use css only & re-position it  */
+  background: -webkit-linear-gradient(#000, #000) left 50% no-repeat;
+  background: linear-gradient(#000, #000) right 50% no-repeat;
+  /*  can precisely control size in relation to the text  */
+  background-size: 80% 0.1rem;
+  /*  now the underline supports transitions  */
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
+
+  height: 5rem;
+}
+
+
+@media screen and (max-width: 767px) {
+  #about .content .about-title {
+    font-size: 3rem;
+    font-weight: 700;
+    /*  shadows render better in certain browsers than text, first rule is for older browser support  */
+    color: #333;
+    color: transparent;
+    text-shadow: 0 0 #333, .08rem 0 0 #fff, 0 0, -.08rem 0 0 #fff;
+    /*  gradient background allows us to use css only & re-position it  */
+    background: -webkit-linear-gradient(#000, #000) left 50% no-repeat;
+    background: linear-gradient(#000, #000) right 50% no-repeat;
+    /*  can precisely control size in relation to the text  */
+    background-size: 50% 0.1rem;
+    /*  now the underline supports transitions  */
+    -webkit-transition: .2s ease;
+    transition: .2s ease;
+
+    height: 5rem;
+  }
+}
+
+#about .content .year {
+  font-size: 2.3rem;
+  font-weight: 700;
+}
+
+.logo-wrapper {
+  padding: 0.5rem;
+}
+
+.logo-wrapper>a {
+  padding: 0.5rem;
+  display: block;
+}
+
+.logo-wrapper>a>img {
+  padding: 1rem;
+  min-height: 6rem;
+}
+
+.sam-logo {
+  background-color: #000;
+}
+
+.funtech-logo {
+  background-color: #93C15B;
+}
+
+.dwyv-logo {
+  background-color: #94B4D5;
+}
+
+
+.contact dl {
+}
+
+.contact dt {
+  display: inline-block;
+  font-weight: 400;
+  height: 4rem;
+  line-height: 4rem;
+}
+
+.contact dd {
+  display: inline;
+  padding-left: 0.5rem;
+  height: 4rem;
+  line-height: 4rem;
+}
+
+.contact dd::after {
+    content: '';
+    display: block;
+}

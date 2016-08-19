@@ -1,0 +1,19 @@
+.jumbotron {
+  background-image: url("/img/back1.jpg");
+  background-size: cover;
+  background-position: center;
+
+  color: #fff;
+
+  text-align: center;
+}
+
+.jumbotron .content {
+  margin-top: 2rem;
+}
+
+.jumbotron .jumbo-subtitle {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 4rem;
+}

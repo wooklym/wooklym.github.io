@@ -1,0 +1,66 @@
+#home .jumbotron {
+  background-image: url("/img/back1.jpg");
+  background-size: cover;
+  background-position: center;
+
+  color: #fff;
+}
+
+#home .jumbotron p.title {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 400px) {
+
+  #home .jumbotron p.title {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+}
+
+#home .btn-strong {
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+.swiper-slide>img {
+  width: 100%;
+}
+
+.youtube-wrapper {
+  position: relative;
+  padding-bottom: 40rem;
+  padding-top: 1rem;
+  height: 0;
+}
+
+#home iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+p.title {
+  font-size: 3rem;
+  font-weight: 700;
+  /*  shadows render better in certain browsers than text, first rule is for older browser support  */
+  color: #333;
+  color: transparent;
+  text-shadow: 0 0 #333, .08rem 0 0 #fff, 0 0, -.08rem 0 0 #fff;
+  /*  gradient background allows us to use css only & re-position it  */
+  background: -webkit-linear-gradient(#F19B33, #F19B33) left 100% no-repeat;
+  background: linear-gradient(#F19B33, #F19B33) left 100% no-repeat;
+  /*  can precisely control size in relation to the text  */
+  background-size: 100% 10%;
+  /*  now the underline supports transitions  */
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
+
+  display: inline-block;
+  height: 6rem;
+  line-height: 6rem;
+  margin-bottom: 3rem;
+}

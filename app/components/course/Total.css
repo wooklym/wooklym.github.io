@@ -1,0 +1,59 @@
+#course-total .content .course-title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+#course-total .content .course-term {
+  font-size: 2rem;
+  font-weight: 400;
+  /*  shadows render better in certain browsers than text, first rule is for older browser support  */
+  color: #333;
+  color: transparent;
+  text-shadow: 0 0 #333, .08rem 0 0 #fff, 0 0, -.08rem 0 0 #fff;
+  /*  gradient background allows us to use css only & re-position it  */
+  background: -webkit-linear-gradient(#F19B33, #F19B33) left 100% no-repeat;
+  background: linear-gradient(#F19B33, #F19B33) left 100% no-repeat;
+  /*  can precisely control size in relation to the text  */
+  background-size: 100% 0.2rem;
+  /*  now the underline supports transitions  */
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
+
+  display: inline-block;
+
+  height: 3rem;
+  margin-bottom: 2rem;
+}
+
+#course-total .content .course-data {
+  /*color: #333;
+  color: transparent;
+  text-shadow: 0 0 #333, .08rem 0 0 #fff, 0 0, -.08rem 0 0 #fff;
+  background: -webkit-linear-gradient(#F19B33, #F19B33) left 100% no-repeat;
+  background: linear-gradient(#F19B33, #F19B33) left 100% no-repeat;
+  background-size: 90% 0.2rem;
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
+
+  padding-bottom: 1rem;*/
+}
+
+#course-total .content table {
+  padding-bottom: 1rem;
+}
+
+#course-total .content p {
+  font-size: 1.2rem;
+}
+
+#course-total .content .year {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+#course-total .content a {
+  float: right;
+  color: #F19B33;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}

@@ -1,0 +1,174 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1,
+.col-xs-2, .col-sm-2, .col-md-2, .col-lg-2,
+.col-xs-3, .col-sm-3, .col-md-3, .col-lg-3,
+.col-xs-4, .col-sm-4, .col-md-4, .col-lg-4,
+.col-xs-5, .col-sm-5, .col-md-5, .col-lg-5,
+.col-xs-6, .col-sm-6, .col-md-6, .col-lg-6,
+.col-xs-7, .col-sm-7, .col-md-7, .col-lg-7,
+.col-xs-8, .col-sm-8, .col-md-8, .col-lg-8,
+.col-xs-9, .col-sm-9, .col-md-9, .col-lg-9,
+.col-xs-10, .col-sm-10, .col-md-10, .col-lg-10,
+.col-xs-11, .col-sm-11, .col-md-11, .col-lg-11,
+.col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+}
+
+html {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 300;
+}
+
+body {
+  line-height: 1.6;
+  padding-top: 100px;
+  font-size: 1.7rem;
+}
+
+@media screen and (max-width: 1200px) {
+
+  body, input, select, textarea, footer {
+  }
+
+}
+
+@media screen and (max-width: 360px) {
+
+  section {
+    padding: 1rem;
+  }
+
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  margin-top: 120px;
+  color: #FFFFFF;
+}
+
+header small {
+  color: #FFFFFF;
+  font-weight: 300;
+}
+
+header p {
+  font-weight: 300;
+}
+
+header .header-content {
+  margin-top: 105px;
+  margin-bottom: 50px;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.highlight {
+  background-color: #F19B33;
+  color: #fff;
+}
+
+.circle {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  border-radius: 50%;
+  font-weight: 700;
+  padding-top: 0.2rem;
+}
+
+.white {
+  background-color: #fff;
+  color: #F19B33;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn.outline {
+    background: none;
+    padding: 0.5em 2rem;
+}
+.btn-primary.outline {
+    border: 0.1em solid #F19B33;
+    color: #F19B33;
+}
+.btn-strong.outline {
+    border: 0.2em solid #ED822F;
+    border-radius: 0;
+    color: #ED822F;
+}
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+    color: #33a6cc;
+    border-color: #33a6cc;
+}
+.btn-primary.outline:active, .btn-primary.outline.active {
+    border-color: #007299;
+    color: #007299;
+    box-shadow: none;
+}
+
+/***********************
+  CUSTON BTN VALUES
+************************/
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+.jumbotron {
+    padding: 4em 0;
+    margin-bottom: 15px;
+
+    border-radius: 0;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  display: inline;
+  width: 2.3rem;
+  margin-right: 1rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+.mt-2 {
+  margin-top: 2rem;
+}
+.mt-3 {
+  margin-top: 3rem;
+}
+.mt-4 {
+  margin-top: 4rem;
+}
+
+.fw-4 {
+  font-weight: 400;
+}
+
+.fw-7 {
+  font-weight: 700;
+}

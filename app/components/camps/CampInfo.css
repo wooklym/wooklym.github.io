@@ -1,0 +1,149 @@
+#camp-info .info-left {
+  padding-right: 3rem;
+}
+@media screen and (max-width: 991px) {
+  #camp-info .info-left {
+    padding-right: 15px;
+  }
+}
+
+#camp-info .camp-title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+#camp-info .camp-subtitle {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+#camp-info .camp-info {
+}
+#camp-info .camp-info span {
+  display: inline-block;
+}
+#camp-info .camp-info dt {
+  font-weight: 400;
+  margin-top: 1rem;
+}
+#camp-info .camp-info dd {
+  margin-top: 1rem;
+}
+#camp-info .camp-info li {
+  margin-bottom: 1rem;
+}
+@media screen and (max-width: 767px) {
+  #camp-info .camp-info dt {
+    font-size: 1.2rem;
+  }
+  #camp-info .camp-info dd {
+    margin-top: 0.3rem;
+  }
+}
+
+#camp-info .camp-info .camp-no {
+  width: 3rem;
+  font-weight: 700;
+}
+@media screen and (max-width: 375px) {
+  #camp-info .camp-info .camp-no {
+    display: block;
+  }
+}
+
+#camp-info .camp-info .camp-dates li.close-date>span.date-info{
+  /*  shadows render better in certain browsers than text, first rule is for older browser support  */
+  color: #333;
+  color: transparent;
+  text-shadow: 0 0 #333, .08rem 0 0 #fff, 0 0, -.08rem 0 0 #fff;
+  /*  gradient background allows us to use css only & re-position it  */
+  background: -webkit-linear-gradient(#F19B33, #F19B33) left 0.70rem no-repeat;
+  background: linear-gradient(#F19B33, #F19B33) left 0.70rem no-repeat;
+  /*  can precisely control size in relation to the text  */
+  background-size: 100% 0.2rem;
+  /*  now the underline supports transitions  */
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
+
+  display: inline-block;
+}
+#camp-info .camp-info .camp-date {
+  width: 4rem;
+}
+#camp-info .camp-info .camp-day {
+  font-weight: 700;
+  width: 2rem;
+}
+#camp-info .camp-info .camp-wave {
+  width: 1rem;
+}
+#camp-info .camp-info .camp-loc {
+  position: relative;
+}
+#camp-info .camp-info .camp-loc::before {
+  content: '';
+  position: absolute;
+  top: 90%;
+  width: 100%;
+  height: 0.25rem;
+  background: -webkit-linear-gradient(315deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%), -webkit-linear-gradient(45deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%);
+  background: linear-gradient(135deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%), linear-gradient(45deg, transparent, transparent 45%, #ff9900, transparent 55%, transparent 100%);
+  background-size: 0.5rem 0.5rem;
+  background-repeat: repeat-x, repeat-x;
+}
+#camp-info .camp-info .loc-name {
+  width: 12rem;
+}
+#camp-info .camp-info .loc-addr {
+  width: 18rem;
+  font-size: 0.7rem;
+}
+
+#camp-info .discount {
+  padding: 1rem 0;
+  margin: 4rem 0;
+}
+  @media screen and (max-width: 1600px) {
+
+    .discount {
+      font-size: 12pt;
+    }
+    .discount-container {
+      padding: 1rem 0 1rem 3rem;
+    }
+
+  }
+  @media screen and (max-width: 1200px) {
+
+    .discount {
+      font-size: 11pt;
+    }
+
+  }
+  @media screen and (max-width: 991px) {
+    .discount {
+      font-size: 10pt;
+    }
+    .discount-container {
+      padding: 1rem 0;
+    }
+  }
+
+#camp-info .discount .title {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-align: left;
+}
+#camp-info .discount img {
+  height: 6rem;
+}
+@media screen and (max-width: 991px) {
+  #camp-info .discount img {
+    margin-top: 2rem;
+  }
+}
+
+#camp-info .discount .circle {
+  float: left;
+}

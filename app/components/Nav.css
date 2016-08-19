@@ -1,0 +1,49 @@
+#nav.navbar-default {
+  background-color: #fff;
+  border-color: #EE9563;
+}
+
+#nav .nav {
+  font-size: 1.7rem;
+}
+
+#nav .navbar-brand {
+  height: 100px;
+}
+
+#nav .navbar-brand img {
+  height: 100%;
+}
+
+#nav .nav > li {
+  text-align: center;
+}
+
+#nav .navbar-nav > li > a {
+  line-height: 70px;
+}
+
+#nav .nav > li > a {
+  padding: 10px 30px;
+}
+
+#nav .navbar-toggle {
+  margin-top: 33px;
+}
+
+
+#nav .nav a.active {
+  color: #333;
+  color: transparent;
+  text-shadow: 0 0 #333, .08rem 0 0 #fff, 0 0, -.08rem 0 0 #fff;
+  /*  gradient background allows us to use css only & re-position it  */
+  background: -webkit-linear-gradient(#F19B33, #F19B33) left 50% no-repeat;
+  background: linear-gradient(#F19B33, #F19B33) right 50% no-repeat;
+  /*  can precisely control size in relation to the text  */
+  background-size: 100% 0.2rem;
+  /*  now the underline supports transitions  */
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
+
+  display: inline-block;
+}

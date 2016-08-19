@@ -1,0 +1,40 @@
+#lecture-chart .info-left {
+  padding-right: 3rem;
+}
+@media screen and (max-width: 991px) {
+  #lecture-chart .info-left {
+    padding-right: 15px;
+  }
+}
+
+#lecture-chart .lecture-title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+#lecture-chart .lecture-subtitle {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+#lecture-chart .lecture-info {
+}
+#lecture-chart .lecture-info span {
+  display: inline-block;
+}
+#lecture-chart .lecture-info dt {
+  font-weight: 400;
+  margin-top: 1rem;
+}
+#lecture-chart .lecture-info dd {
+  margin-top: 1rem;
+}
+#lecture-chart .lecture-info li {
+  margin-bottom: 1rem;
+}
+@media screen and (max-width: 767px) {
+  #lecture-chart .lecture-info dt {
+    font-size: 1.2rem;
+  }
+  #lecture-chart .lecture-info dd {
+    margin-top: 0.3rem;
+  }
+}

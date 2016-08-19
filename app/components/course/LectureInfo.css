@@ -1,0 +1,39 @@
+#lecture-info .info-left {
+  padding-right: 3rem;
+}
+@media screen and (max-width: 991px) {
+  #lecture-info .info-left {
+    padding-right: 15px;
+  }
+}
+
+#lecture-info .lecture-title {
+  font-size: 5rem;
+  font-weight: 700;
+}
+#lecture-info .lecture-subtitle {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+#lecture-info .lecture-info {
+}
+#lecture-info .lecture-info span {
+  display: inline-block;
+}
+#lecture-info .lecture-info dt {
+  margin-top: 1rem;
+}
+#lecture-info .lecture-info dd {
+  margin-top: 1rem;
+}
+#lecture-info .lecture-info li {
+  margin-bottom: 1rem;
+}
+@media screen and (max-width: 767px) {
+  #lecture-info .lecture-info dt {
+    font-size: 2.2rem;
+  }
+  #lecture-info .lecture-info dd {
+    margin-top: 0.3rem;
+  }
+}

@@ -1,0 +1,23 @@
+#poster {
+  padding: 3rem 0;
+  background-color: #fff;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+#poster hr {
+  border-top: 1px solid #BEBFC0;
+}
+
+section {
+  padding: 0 3rem;
+}
+@media screen and (max-width: 767px) {
+  section {
+    padding: 1rem;
+  }
+}
+
+section img.poster {
+  width: 100%;
+}

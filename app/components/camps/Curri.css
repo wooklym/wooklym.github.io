@@ -1,0 +1,23 @@
+#curri {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+#curri .curri-row {
+  margin-top: 3rem;
+}
+#curri .curri-day>span {
+  padding-top: 0.8rem;
+  font-size: 2rem;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+#curri .curri-contents {
+  padding-top: 1.5rem;
+}
+#curri .curri-title {
+  font-weight: 700;
+}
+#curri .curri-desc {
+
+}

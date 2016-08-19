@@ -12,7 +12,7 @@ import Total from './components/course/Total.jsx';
 import Poster from './components/course/Poster.jsx';
 
 ReactDOM.render(
-  <Router history={browserHistory}>
+  <Router history={hashHistory}>
     <Route path="/" component={Main}>
       <IndexRoute component={Home} />
       <Route path="about" component={About} />

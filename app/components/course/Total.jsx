@@ -6,7 +6,7 @@ import Jumbotron from '../Jumbotron.jsx';
 require('./Total.css')
 
 const data = {
-	img: "img/techbridge_white.png",
+	img: "img/course.png",
 	title: "COURSE",
 	subtitle: "교육과정",
 	content: "아이들의 생각을 실현하는 놀이터, 테크브릿지"

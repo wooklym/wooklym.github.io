@@ -7,7 +7,7 @@ import Poster from './Poster.jsx';
 const menus = {
   starter: {
     title: "Tech Starter",
-    img: "/img/techbridge_white.png",
+    img: "/img/tech_starter.png",
     content: "아이들의 생각을 실현하는 놀이터, 테크브릿지",
     children: [
       {
@@ -22,7 +22,7 @@ const menus = {
   },
   pro: {
     title: "Tech Pro",
-    img: "/img/techbridge_white.png",
+    img: "/img/tech_pro.png",
     content: "아이들의 생각을 실현하는 놀이터, 테크브릿지",
     children: [
       {
@@ -37,7 +37,7 @@ const menus = {
   },
   master: {
     title: "Tech Master",
-    img: "/img/techbridge_white.png",
+    img: "/img/tech_master.png",
     content: "아이들의 생각을 실현하는 놀이터, 테크브릿지",
     children: [
       {
@@ -52,7 +52,7 @@ const menus = {
   },
   ap: {
     title: "Ap",
-    img: "/img/techbridge_white.png",
+    img: "/img/ap.png",
     content: "아이들의 생각을 실현하는 놀이터, 테크브릿지",
     children: [
       {

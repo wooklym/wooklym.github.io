@@ -36,7 +36,7 @@ var data = {
             pointStrokeColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba(220,220,220,1)",
-	          data: [100, 60, 80, 70, 20]
+	          data: [100, 75, 90, 80, 40]
 	        }
 		    ]
 			},
@@ -84,7 +84,7 @@ var data = {
             pointStrokeColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba(220,220,220,1)",
-	          data: [90, 60, 100, 95, 40]
+	          data: [90, 80, 100, 95, 60]
 	        }
 		    ]
 			},
@@ -132,7 +132,7 @@ var data = {
             pointStrokeColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba(220,220,220,1)",
-	          data: [80, 90, 70, 90, 60]
+	          data: [70, 100, 90, 75, 80]
 	        }
 		    ]
 			},
@@ -180,7 +180,7 @@ var data = {
             pointStrokeColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba(220,220,220,1)",
-	          data: [70, 60, 100, 100, 80]
+	          data: [70, 80, 100, 95, 80]
 	        }
 		    ]
 			},
@@ -327,7 +327,7 @@ var data = {
             pointStrokeColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba(220,220,220,1)",
-	          data: [100, 60, 90, 95, 20]
+	          data: [60, 70, 100, 95, 80]
 	        }
 		    ]
 			},

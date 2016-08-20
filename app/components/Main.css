@@ -172,3 +172,8 @@ a {
 .fw-7 {
   font-weight: 700;
 }
+
+.border {
+  padding: 1rem;
+  border: 1px solid #ddd;
+}

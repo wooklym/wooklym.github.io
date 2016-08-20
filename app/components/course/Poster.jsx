@@ -84,7 +84,7 @@ var data = {
             pointStrokeColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba(220,220,220,1)",
-	          data: [90, 60, 100, 95, 20]
+	          data: [90, 60, 100, 95, 40]
 	        }
 		    ]
 			},
@@ -132,7 +132,7 @@ var data = {
             pointStrokeColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba(220,220,220,1)",
-	          data: [80, 90, 70, 90, 20]
+	          data: [80, 90, 70, 90, 60]
 	        }
 		    ]
 			},
@@ -180,7 +180,7 @@ var data = {
             pointStrokeColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba(220,220,220,1)",
-	          data: [70, 60, 100, 100, 20]
+	          data: [70, 60, 100, 100, 80]
 	        }
 		    ]
 			},
@@ -212,7 +212,8 @@ var data = {
 	  },
 	  eduinfo: {
 	    desc: "HTML, CSS, Javascript, 이 세 가지의 웹을 다루는 언어를 배웁니다. 첫 수업부터 아이들이 만들고 싶은 웹 서비스를 직접 생각하게 하고, 기획부터 디자인, 개발까지 12주 동안 함께 완성해갑니다.",
-	    image: "img/sample2.png",
+	    image: "img/webdev.jpg",
+			imageBorder: true,
 	    youtube: "",
 	    vimeo: ""
 	  },
@@ -228,7 +229,7 @@ var data = {
             pointStrokeColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba(220,220,220,1)",
-	          data: [90, 90, 80, 100, 60]
+	          data: [90, 90, 70, 85, 100]
 	        }
 		    ]
 			},
@@ -260,7 +261,8 @@ var data = {
 	  },
 	  eduinfo: {
 	    desc: "가위바위보 게임, 할일 정리 앱 등 재미있고 유용한 컨텐츠 앱을 통해 아이들이 흥미를 가지고 참여할 수 있습니다. Java 언어를 배우며 프로그래밍의 기초적인 이론부터 응용까지 학습합니다. 또한 이를 통해 안드로이드 앱을 개발하고 전 세계에 서비스합니다.",
-	    image: "img/sample2.png",
+	    image: "img/android.jpg",
+			imageBorder: true,
 	    youtube: "",
 	    vimeo: ""
 	  },
@@ -276,7 +278,7 @@ var data = {
             pointStrokeColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba(220,220,220,1)",
-	          data: [100, 60, 90, 95, 20]
+	          data: [90, 70, 90, 95, 100]
 	        }
 		    ]
 			},
@@ -308,7 +310,8 @@ var data = {
 	  },
 	  eduinfo: {
 	    desc: "",
-	    image: "img/sample2.png",
+	    image: "img/ap.jpg",
+			imageBorder: true,
 	    youtube: "",
 	    vimeo: ""
 	  },

@@ -17,18 +17,38 @@ const chartOptions = {
 }
 
 export default class LectureChart extends React.Component {
+
+	componentWillMount() {
+		const {chart} = this.props;
+		this.setState({
+			chart: chart
+		});
+	}
+
+	componentWillUnmount() {
+    this.state.chart.destroy();
+  }
+
+	// componentWillReceiveProps(props) {
+	// 	const {chart} = props;
+	// 	this.setState({
+	// 		chart: chart
+	// 	});
+	// }
+	// 
 	render() {
+		const chart = this.state.chart;
 		return (
       <section id="lecture-chart">
 				<p className="title">교육효과</p>
         <div className="row">
 					<div className="col-md-6">
-						<Radar data={this.props.chart.data} options={chartOptions} />
+						<Radar data={chart.data} options={chartOptions} />
           </div>
 					<dl className="col-md-6">
 						<div className="row">
 							{
-								this.props.chart.desc.map((desc) => {
+								chart.desc.map((desc) => {
 									return (
 										<dl key={desc.title}>
 											<dt className="col-sm-4 mt-1">{desc.title}</dt>

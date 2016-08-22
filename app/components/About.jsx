@@ -38,7 +38,10 @@ export default class About extends React.Component {
 						<div className="col-md-offset-3 col-md-9">
 							<p className="fw-4">4P Based Learning</p>
 							<p>(Play - ProjectBasedLearning = Problrem Finding - Practical)</p>
-							<img src="img/4p.jpg" className="img-responsive mt-3" />
+							<img src="img/4p1.jpg" className="center-block img-responsive col-sm-6" />
+							<img src="img/4p2.jpg" className="center-block img-responsive col-sm-6" />
+							<img src="img/4p3.jpg" className="center-block img-responsive col-sm-6" />
+							<img src="img/4p4.jpg" className="center-block img-responsive col-sm-6" />
 						</div>
 					</div>
 					<p className="about-title mt-4">History</p>

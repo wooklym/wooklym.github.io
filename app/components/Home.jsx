@@ -73,10 +73,13 @@ export default class Home extends React.Component {
 				<div className="row mt-4">
 					<div className="col-xs-12">
 						<p className="title">어떻게 배워야 할까요?</p>
-							<p>
-								아이들의 흥미를 끊임 없이 유발시켜 자기 주도적으로 문제를 해결할 수 있게 해야합니다. 테크브릿지에서는 <b>4P Based Learning</b> 교육법을 통해 이를 실현하고 있습니다.
-							</p>
-							<img src="img/4p.jpg" className="center-block img-responsive" />
+						<p>
+							아이들의 흥미를 끊임 없이 유발시켜 자기 주도적으로 문제를 해결할 수 있게 해야합니다. 테크브릿지에서는 <b>4P Based Learning</b> 교육법을 통해 이를 실현하고 있습니다.
+						</p>
+						<img src="img/4p1.jpg" className="center-block img-responsive col-sm-6" />
+						<img src="img/4p2.jpg" className="center-block img-responsive col-sm-6" />
+						<img src="img/4p3.jpg" className="center-block img-responsive col-sm-6" />
+						<img src="img/4p4.jpg" className="center-block img-responsive col-sm-6" />
 					</div>
 				</div>
 			</section>

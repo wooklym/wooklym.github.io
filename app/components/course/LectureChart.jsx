@@ -1,4 +1,5 @@
 import React from 'react';
+import _ from 'underscore';
 import {Radar} from 'react-chartjs'
 
 require('./LectureChart.css');
@@ -16,34 +17,41 @@ const chartOptions = {
 	}
 }
 
-export default class LectureChart extends React.Component {
+const chartLabels = ["창의적 사고", "융합적 사고", "논리적 사고", "문제해결 능력", "개발 응용 능력"];
 
-	componentWillMount() {
-		const {chart} = this.props;
-		this.setState({
-			chart: chart
-		});
+export default class LectureChart extends React.Component {
+	constructor (props) {
+		super(props)
+
+		this.state = {justUpdated: false}
 	}
 
-	componentWillUnmount() {
-    this.state.chart.destroy();
-  }
+	componentDidMount () {
+		this.setState({
+			justUpdated: true
+		})
+	}
 
-	// componentWillReceiveProps(props) {
-	// 	const {chart} = props;
-	// 	this.setState({
-	// 		chart: chart
-	// 	});
-	// }
-	// 
+	componentWillReceiveProps () {
+		this.setState({justUpdated: false})
+	}
+
+	componentWillUpdate (nextProps, nextState) {
+		if (!nextState.justUpdated) {
+			this.setState({justUpdated: true})
+		}
+	}
+
 	render() {
-		const chart = this.state.chart;
+		const { chart } = this.props
+		const {justUpdated} = this.state;
+
 		return (
       <section id="lecture-chart">
 				<p className="title">교육효과</p>
         <div className="row">
 					<div className="col-md-6">
-						<Radar data={chart.data} options={chartOptions} />
+						{justUpdated && <Radar data={chart.data} options={chartOptions} />}
           </div>
 					<dl className="col-md-6">
 						<div className="row">

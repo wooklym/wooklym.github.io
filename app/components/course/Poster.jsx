@@ -350,37 +350,16 @@ var data = {
 };
 
 export default class Poster extends React.Component {
-	constructor(props) {
-		super(props);
-		console.log("asdf")
-	}
-
-	componentWillMount() {
-		const lecture = this.props.params.lecture
-		this.setViewForLecture(lecture)
-	}
-
-	componentWillReceiveProps(props) {
-		const lecture = props.params.lecture
-		this.setViewForLecture(lecture)
-	}
-
-	setViewForLecture(lecture) {
-		this.setState({
-			info: data[lecture].info,
-			eduinfo: data[lecture].eduinfo,
-			chart: data[lecture].chart
-		});
-	}
-
 	render() {
+		const {info, eduinfo, chart} = data[this.props.params.lecture]
+
 		return (
       <div id="poster">
-        <LectureInfo info={this.state.info} />
+        <LectureInfo info={info} />
         <hr />
-				<LectureChart chart={this.state.chart}/>
+				<LectureChart chart={chart}/>
 				<hr />
-        <Eduinfo eduinfo={this.state.eduinfo}/>
+        <Eduinfo eduinfo={eduinfo}/>
       </div>
     );
   }
